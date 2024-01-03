@@ -10,10 +10,10 @@
 
     <header id="navigation-bar">
         <h1 id="logo">Welcome to Kalkulator Segitiga</h1>
-        <p id="tagline">Hai Sobat, Selamat datang di Katik :] <br> Sebuah aplikasi sederhana yang berfungsi untuk menghitung luas dan keliling bangun datar</p>
+        <p id="tagline">Hai Sobat, Selamat Datang Di Kalkulator Segitiga  <br> Sebuah kalkulator sederhana yang berfungsi untuk menghitung luas dan keliling bangun datar</p>
         <nav class="navigation">
-            <a href="#luas-segitiga">Luas Segitiga</a>
-            <a href="#keliling-segitiga">Keliling Segitiga</a>
+            <a class="LuasSegitiga" href="#luas-segitiga">Luas Segitiga</a>
+            <a class="KelilingSegitiga" href="#keliling-segitiga">Keliling Segitiga</a>
         </nav>
     </header>
 
@@ -21,14 +21,14 @@
         <div class="calculator-container">
             <!-- Luas Segitiga -->
             <section id="luas-segitiga" class="calculator-section">
-                <h2>Luas Segitiga</h2>
-                <img src="Assets/Luas Segitiga.png" alt="Luas Segitiga" width="300" height="250">
+                <h2 class="Luas">Luas Segitiga</h2>
+                <img src="Assets/Luas Segitiga.png" alt="Luas Segitiga" width="500" height="200">
                 <form id="luas-form">
                     <label for="base">Alas:</label>
-                    <input type="number" id="base" required>
+                    <input type="number" placeholder="Masukkan Alas" id="base" required>
 
                     <label for="height">Tinggi:</label>
-                    <input type="number" id="height" required>
+                    <input type="number" placeholder="Masukkan Tinggi" id="height" required>
 
                     <button type="button" onclick="calculateLuas()">Hitung Luas</button>
                     <button type="button" id="resetLuasButton" onclick="resetLuasForm()">Reset</button>
@@ -42,17 +42,17 @@
 
             <!-- Keliling Segitiga -->
             <section id="keliling-segitiga" class="calculator-section">
-                <h2>Keliling Segitiga</h2>
-                <img src="/Assets/Rumus Keliling Segitiga.png" alt="Keliling Segitiga" width="300" height="250">
+                <h2 class="Keliling">Keliling Segitiga</h2>
+                <img src="Assets/Rumus Keliling Segitiga.png" alt="Keliling Segitiga" width="500" height="200">
                 <form id="keliling-form">
                     <label for="side1">Sisi 1:</label>
-                    <input type="number" id="side1" required>
+                    <input type="number" placeholder="Masukkan Sisi Ke 1" id="side1" required>
 
                     <label for="side2">Sisi 2:</label>
-                    <input type="number" id="side2" required>
+                    <input type="number" placeholder="Masukkan Sisi Ke 2" id="side2" required>
 
                     <label for="side3">Sisi 3:</label>
-                    <input type="number" id="side3" required>
+                    <input type="number" placeholder="Masukkan Sisi Ke 3" id="side3" required>
 
                     <button type="button" onclick="calculateKeliling()">Hitung Keliling</button>
                     <button type="button" id="resetKelilingButton" onclick="resetKelilingForm()">Reset</button>
@@ -68,10 +68,8 @@
 
     <script src="js/script.js"></script>
     
-    </main>
     <footer class="footer">
-        <p>&copy; 2024 Ronaldo Putra Satria <br>Gmail : ronaldoputrasatria@gmail.com</p>
+        <p>&copy; 2023 Ronaldo Putra Satria <br>Gmail : ronaldoputrasatria@gmail.com</p>
     </footer>
-    <button class="buttons" id="up-button">↑</button>
 </body>
 </html>

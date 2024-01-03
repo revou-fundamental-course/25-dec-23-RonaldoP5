@@ -2,11 +2,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 #navigation-bar {
@@ -15,14 +14,14 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    background-color: #4caf50;
+    background-color: #4cacaf;
     padding: 10px; 
 }
 
 header {
     text-align: center;
     padding: 20px;
-    background-color: #4caf50;
+    background-color: #A8DF8E;
     color: #fff;
 }
 
@@ -33,7 +32,6 @@ header {
 #navigation-bar a {
     margin-right: 20px;
     color: #fff;
-    text-decoration: none;
 }
 
 main {
@@ -48,12 +46,13 @@ main {
 
 .calculator-container {
     width: 100%;
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 .calculator-section {
     width: 100%;
     margin-bottom: 20px;
+
 }
 
 form {
@@ -91,3 +90,31 @@ button:hover {
     font-weight: bold;
     color: #333;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4cacaf;
+    color: #fff;
+}
+
+.Luas {
+     background-color: #FFB534;
+     padding: 1rem 1rem;
+     text-align: center;
+}
+
+.Keliling {
+    background-color: #FFB534;
+     padding: 1rem 1rem;
+     text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+
